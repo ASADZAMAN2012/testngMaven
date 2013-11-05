@@ -7,7 +7,7 @@ public class HomePageTest extends BaseTest
 	@Test
 	public void login()
 	{
-		webDriver.get("http://www.google.com");
+		driver.get("http://www.google.com");
 	}
 	
 

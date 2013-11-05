@@ -5,21 +5,25 @@
                    sidebarcommand=""
                    width=""
                    src="" />
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul">
+    <NC:persist RDF:resource="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://mozapps/content/downloads/unknownContentType.xul#unknownContentType"
+                   screenX="320"
+                   screenY="134" />
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#nav-bar"
                    currentset="unified-back-forward-button,urlbar-container,reload-button,stop-button,search-container,webrtc-status-button,bookmarks-menu-button,downloads-button,home-button,window-controls,social-share-button,firebug-button"
                    collapsed="" />
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#nav-bar"/>
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
-    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-title"
-                   value="" />
   <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
                    screenX="4"
                    screenY="22"
                    sizemode="normal"
                    width="1083"
                    height="637" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#nav-bar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+  </RDF:Description>
 </RDF:RDF>
